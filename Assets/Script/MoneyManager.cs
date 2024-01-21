@@ -10,6 +10,12 @@ public class MoneyManager : MonoBehaviour
     public TextMeshPro moneyText5;
     public TextMeshPro moneyText6;
 
+    public GameObject moneyImage1;
+    public GameObject moneyImage2;
+    public GameObject moneyImage3;
+    public GameObject moneyImage4;
+    public GameObject moneyImage5;
+
     private int money1 = 0;
     private int money2 = 0;
     private int money3 = 0;
