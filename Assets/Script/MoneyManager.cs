@@ -136,7 +136,7 @@ public class MoneyManager : MonoBehaviour
     void AddRandomMoney()
     {
         // สุ่มเงินที่จะเพิ่ม (1, 2, 5)
-        int[] possibleValues = { 1, 2, 5 };
+        int[] possibleValues = { 1, 2 };
 
 
         int randomMoney1 = possibleValues[Random.Range(0, possibleValues.Length) % possibleValues.Length];
